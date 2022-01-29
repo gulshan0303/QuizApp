@@ -4,7 +4,7 @@ import {Button, MenuItem, TextField} from '@material-ui/core';
 import {useHistory} from 'react-router-dom';
 import Categories from '../../Data/Categories';
 import ErrorMessage from '../../Component/Error/ErrorMessage';
-
+import logo from '../../img/logo.svg';
 const Home = ({name,setName ,fetchQuestions} ) => {
 
     const [category , setCategory]=useState("");
@@ -83,7 +83,7 @@ const Home = ({name,setName ,fetchQuestions} ) => {
           </div>
         
       </div>
-      <img src="/quiz.svg" alt="quiz img" srcset="" className='banner' />
+      <img src={logo} alt="quizLogo" srcset="" className='banner' />
    
     </div>
 

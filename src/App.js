@@ -25,7 +25,7 @@ const App = () => {
     
   return (
       <BrowserRouter>
-      <div className="App" style={{backgroundImage:"url(./a.png)"}}>
+      <div className="App" style={{backgroundImage:"url(./a.png)" }}>
       <Header/>
       <Switch>
         <Route exact path='/'><Home   name={name}

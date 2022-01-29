@@ -12,18 +12,9 @@ const Result = ({ name, score }) => {
     }
   }, [name, history]);
 
-  const handleSelect = (f) => {
-    if (score === 5) return "Good";
-    else if(score<5)return"Bad";
-  };
-
   return (
     <div className="result">
       <span className="title">Final Score : {score}</span>
-      
-
-      
-
       <Button
         variant="contained"
         color="secondary"
